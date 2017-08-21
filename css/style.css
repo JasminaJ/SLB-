@@ -1,0 +1,167 @@
+body {
+	font-family: 'Indie Flower', cursive;
+	margin: 0;
+	background-color: #FFB3A8;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+header {
+	background-color: #29B4FF;
+}
+
+
+#patkice {
+	width: 50%;
+	float: left;
+	padding-top: 10px;
+}
+
+#righthalf {
+	width: 50%;
+	float: right;
+}
+
+#dugmici {
+	float: right;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	color: #006BBD;
+	text-shadow: 4px 4px 4px black;
+	font-weight: bold;
+}
+
+#navigation {
+	background-color: #29B4FF; 
+	border: 0;
+	margin-bottom: 0;
+}
+
+#ovo-se-gubi {
+	padding-top: 5px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#navlista li {
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 5%;
+}
+
+#navlista li a {
+	color: #006BBD;
+}
+
+#navlista li:hover {
+	transform: scale(1.2,1.2);
+}
+
+#button:hover {
+	box-shadow: 1px 1px 1px black;
+}
+
+.container .jumbotron {
+	padding: 0 0 0 0;
+	border-radius: 0;
+}
+
+#logoimg {
+	width: 100%;
+	height: 100%;
+}
+
+.content {
+	position: relative;
+	background-color: white;
+	background-image: url("../images/galerijaAsset 4.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 250px;
+	margin-bottom: 15px;
+	border-radius: 5%;
+}
+
+
+.content span {
+	position: absolute;
+	bottom: 0;
+	left:0;
+	width: 100%;
+	background-color:#FFB3A8; 
+	opacity: 0.5;
+	color:#006BBD;
+	text-align: center;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.content:hover {
+	box-shadow: 2px 2px 2px black;
+}
+
+.content span:hover {
+	transform: scale(1.1,1.1);
+}
+
+#footer {
+	background-color: #29B4FF;
+	opacity: 0.9;
+}
+
+#footer hr {
+	width: 70%;
+	border: 1px solid #FFB3A8;
+}
+
+#copyrights {
+	margin-top: 20px;
+	text-align: center;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	h1 {
+		font-size: 40px;
+		text-shadow: 3px 3px 3px black;
+	}
+	#footersec1, #footersec2, #footersec3  {
+		text-align: center;
+	}
+}
+
+@media (max-width: 767px) and (min-width: 500px) {
+	h1 {
+		font-size: 30px;
+		text-shadow: 2px 2px 2px black;
+	}
+	.content span {
+		font-size: 25px;
+	}
+	#footersec1, #footersec2, #footersec3  {
+		text-align: center;
+	}
+}
+
+@media (max-width: 499px)  {
+	h1 {
+		font-size: 20px;
+		text-shadow: 1px 1px 1px black;
+	}
+	.content {
+		height: 150px;
+		width: 150px;
+		margin: 0 auto 15px auto;
+		background-image: url("../images/smallgeleryAsset 6.png")
+	}
+	.content span {
+		font-size: 20px;
+	}
+	#footersec1, #footersec2, #footersec3  {
+		text-align: center;
+	}
+}
