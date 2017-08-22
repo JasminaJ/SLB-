@@ -59,7 +59,11 @@ h1 {
 }
 
 #navlista li:hover {
-	transform: scale(1.2,1.2);
+	background-color: #FFEAF1;
+}
+
+#navlista li:active {
+	background-color: #FFB3A8;
 }
 
 #button:hover {
@@ -87,7 +91,6 @@ h1 {
 	margin-bottom: 15px;
 	border-radius: 5%;
 }
-
 
 .content span {
 	position: absolute;
@@ -124,6 +127,23 @@ h1 {
 	margin-top: 20px;
 	text-align: center;
 }
+
+#divabout {
+	background-image: url("../images/pozadina.png");
+}
+
+#divaboutsmall {
+	background-color: #FFEAF1;
+}
+
+#heading {
+	text-align: center;
+}
+
+#section-about1, #section-about2 {
+	text-align: justify;
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
 	h1 {
 		font-size: 40px;
