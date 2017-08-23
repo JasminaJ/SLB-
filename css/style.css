@@ -1,7 +1,7 @@
 body {
 	font-family: 'Indie Flower', cursive;
 	margin: 0;
-	background-color: #FFB3A8;
+	background-color: #d2f2f7;
 }
 
 * {
@@ -54,8 +54,9 @@ h1 {
 	border-radius: 5%;
 }
 
-#navlista li a {
+#navlista li a span {
 	color: #006BBD;
+	padding-left: 10px;
 }
 
 #navlista li:hover {
@@ -73,6 +74,7 @@ h1 {
 .container .jumbotron {
 	padding: 0 0 0 0;
 	border-radius: 0;
+
 }
 
 #logoimg {
@@ -82,14 +84,17 @@ h1 {
 
 .content {
 	position: relative;
-	background-color: white;
+	background-color: #FFEAF1;
 	background-image: url("../images/galerijaAsset 4.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 250px;
 	margin-bottom: 15px;
+	box-shadow: 2px 2px 2px black;
 	border-radius: 5%;
+	border: 1px solid #FFB3A8;
+	overflow: hidden;
 }
 
 .content span {
@@ -98,7 +103,7 @@ h1 {
 	left:0;
 	width: 100%;
 	background-color:#FFB3A8; 
-	opacity: 0.5;
+	opacity: 0.7;
 	color:#006BBD;
 	text-align: center;
 	font-size: 30px;
@@ -106,7 +111,7 @@ h1 {
 }
 
 .content:hover {
-	box-shadow: 2px 2px 2px black;
+	box-shadow: 4px 4px 4px black;
 }
 
 .content span:hover {
